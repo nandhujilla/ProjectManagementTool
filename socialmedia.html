@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Media Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Social Media Platform</h1>
+    </header>
+    
+    <section id="registration-section">
+        <h2>Registration</h2>
+        <form id="registration-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="login-username" placeholder="Username" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="profile-section">
+        <h2>Profile</h2>
+        <div id="user-profile">
+            <p><strong>Username:</strong> <span id="profile-username"></span></p>
+            <p><strong>Tasks:</strong> <span id="profile-tasks"></span></p>
+        </div>
+    </section>
+
+    <section id="task-assignment-section">
+        <h2>Task Assignment</h2>
+        <form id="task-assignment-form">
+            <input type="text" id="task-name" placeholder="Task Name" required>
+            <input type="text" id="task-description" placeholder="Task Description" required>
+            <input type="text" id="assigned-to" placeholder="Assigned To (Username)" required>
+            <button type="submit">Assign Task</button>
+        </form>
+    </section>
+
+    <section id="communication-section">
+        <h2>Communication</h2>
+        <div id="chat">
+            <div id="chat-messages"></div>
+            <input type="text" id="message" placeholder="Type your message">
+            <button id="send">Send</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* Basic styling, customize as needed */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#user-profile {
+    display: none;
+}
+
+#chat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#chat-messages {
+    max-height: 240px;
+    overflow-y: scroll;
+}
+
+#message {
+    width: 80%;
+}
